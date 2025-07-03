@@ -1056,10 +1056,6 @@ video {
   font-family: Dancing Script, cursive;
 }
 
-.font-mono {
-  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
-}
-
 .text-2xl {
   font-size: 1.5rem;
   line-height: 2rem;
@@ -1147,6 +1143,10 @@ video {
 
 .opacity-0 {
   opacity: 0;
+}
+
+.opacity-100 {
+  opacity: 1;
 }
 
 .shadow-lg {
@@ -1256,19 +1256,6 @@ video {
 
 .group:hover .group-hover\:mb-10 {
   margin-bottom: 2.5rem;
-}
-
-.group:hover .group-hover\:w-full {
-  width: 100%;
-}
-
-.group:hover .group-hover\:border-t {
-  border-top-width: 1px;
-}
-
-.group:hover .group-hover\:border-gray-400 {
-  --tw-border-opacity: 1;
-  border-color: rgb(156 163 175 / var(--tw-border-opacity, 1));
 }
 
 .group:hover .group-hover\:text-sm {
@@ -1432,9 +1419,35 @@ video {
     line-height: 1.75rem;
   }
 
+  .md\:opacity-0 {
+    opacity: 0;
+  }
+
+  .group:hover .md\:group-hover\:w-full {
+    width: 100%;
+  }
+
+  .group:hover .md\:group-hover\:border-t {
+    border-top-width: 1px;
+  }
+
+  .group:hover .md\:group-hover\:border-gray-400 {
+    --tw-border-opacity: 1;
+    border-color: rgb(156 163 175 / var(--tw-border-opacity, 1));
+  }
+
   .group:hover .md\:group-hover\:text-xl {
     font-size: 1.25rem;
     line-height: 1.75rem;
+  }
+
+  .group:hover .md\:group-hover\:text-sm {
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+  }
+
+  .group:hover .md\:group-hover\:opacity-100 {
+    opacity: 1;
   }
 }
 
