@@ -1,5 +1,7 @@
 # Safiye Dalkıran - Kişisel Portfolio Sitesi
 
+https://safiyedalkiran.netlify.app/
+
 Bu proje, **Safiye Dalkıran**'ın kişisel portfolyo web sitesidir. Modern frontend teknolojileri (HTML, CSS, JavaScript, Tailwind CSS gibi) kullanılarak hazırlanmıştır. Sitede kişisel bilgiler, yetenekler, projeler ve iletişim bilgileri bulunmaktadır.
 
 ##  Özellikler
